@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Murat Dekorasyon | İç Mimari & Usta İşçilik</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --brand: #0ea5e9; --accent: #f97316; }
+    body { font-family: 'Poppins', sans-serif; }
+    html { scroll-behavior: smooth; }
+    .gradient-bg { background: linear-gradient(135deg, #0ea5e9, #f97316); }
+    .card-hover:hover { transform: translateY(-6px); transition: .3s ease; }
+  </style>
+</head>
+<body class="min-h-screen bg-gray-50 text-gray-800">
+  <!-- Üst Bar -->
+  <header class="sticky top-0 z-40 shadow">
+    <div class="bg-white/90 backdrop-blur">
+      <div class="mx-auto max-w-7xl px-4 flex items-center justify-between h-16">
+        <a href="#" class="flex items-center gap-3">
+          <div class="w-12 h-12 rounded-2xl gradient-bg text-white grid place-items-center font-extrabold text-lg">M</div>
+          <div>
+            <div class="text-xl font-extrabold tracking-tight">Murat Dekorasyon</div>
+            <div class="text-xs text-gray-600 -mt-1">35 Yıllık Tecrübe • Anahtar Teslim</div>
+          </div>
+        </a>
+        <nav class="hidden md:flex items-center gap-6 text-sm font-medium">
+          <a href="#hizmetler" class="hover:text-[var(--brand)]">Hizmetler</a>
+          <a href="#projeler" class="hover:text-[var(--brand)]">Projeler</a>
+          <a href="#hakkimizda" class="hover:text-[var(--brand)]">Hakkımızda</a>
+          <a href="#iletisim" class="hover:text-[var(--brand)]">İletişim</a>
+        </nav>
+        <a href="tel:5438391728" class="hidden sm:inline-block gradient-bg hover:opacity-90 text-white px-4 py-2 rounded-xl shadow">Hemen Ara</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="gradient-bg text-white py-20">
+    <div class="mx-auto max-w-7xl px-4 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl sm:text-5xl font-extrabold leading-tight"><span class="text-yellow-300">35 Yıllık Tecrübe</span> ile <br> Anahtar Teslim Dekorasyon</h1>
+        <p class="mt-4 text-lg text-gray-100">Ağaoğlu ve birçok prestijli projede deneyimli ekibimizle ev ve işyerlerinize değer katıyoruz.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="#hizmetler" class="bg-white text-gray-900 px-5 py-3 rounded-xl shadow font-semibold">Hizmetleri Gör</a>
+          <a href="#teklif" class="px-5 py-3 rounded-xl border border-white text-white">Hızlı Teklif Al</a>
+        </div>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1600585154154-1c803d67c2e2?auto=format&fit=crop&w=900&q=80" alt="Modern İnşaat Projesi" class="rounded-2xl shadow-xl ring-4 ring-white/20">
+      </div>
+    </div>
+  </section>
+
+  <!-- Hizmetler -->
+  <section id="hizmetler" class="py-20 bg-gray-100">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold text-center">Hizmetlerimiz</h2>
+      <p class="mt-2 text-center text-gray-600">Kaliteli malzeme ve uzman işçilik ile fark yaratıyoruz.</p>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="p-6 bg-white rounded-2xl shadow card-hover">
+          <img src="https://images.unsplash.com/photo-1600585154208-0b11c18c65c1?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-3 w-full h-40 object-cover" alt="Mutfak Dolabı">
+          <h3 class="font-bold text-lg">Mutfak Dolabı</h3>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow card-hover">
+          <img src="https://images.unsplash.com/photo-1600573472592-4017c6b2e5b1?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-3 w-full h-40 object-cover" alt="Alçı Sıva">
+          <h3 class="font-bold text-lg">Saten Alçı & Sıva Alçısı</h3>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow card-hover">
+          <img src="https://images.unsplash.com/photo-1600565193348-f74bd3a6d06d?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-3 w-full h-40 object-cover" alt="Asma Tavan">
+          <h3 class="font-bold text-lg">Alçıpan Asma Tavan</h3>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow card-hover">
+          <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b1f6?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-3 w-full h-40 object-cover" alt="Boya Badana">
+          <h3 class="font-bold text-lg">Boya & Badana</h3>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow card-hover">
+          <img src="https://images.unsplash.com/photo-1622495895529-65c1dcaf1492?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-3 w-full h-40 object-cover" alt="Fayans">
+          <h3 class="font-bold text-lg">Fayans & Kalebodur</h3>
+        </div>
+        <div class="p-6 bg-white rounded-2xl shadow card-hover">
+          <img src="https://images.unsplash.com/photo-1598300052541-2f9cfb5e8b92?auto=format&fit=crop&w=600&q=80" class="rounded-lg mb-3 w-full h-40 object-cover" alt="TV Ünitesi">
+          <h3 class="font-bold text-lg">TV Ünitesi & Niş</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projeler -->
+  <section id="projeler" class="py-20">
+    <div class="mx-auto max-w-7xl px-4">
+      <h2 class="text-3xl font-extrabold text-center">Ağaoğlu & Prestijli Projeler</h2>
+      <p class="text-center text-gray-600 mt-2">35 yıllık tecrübemizle İstanbul’un en seçkin inşaat projelerinde anahtar teslim hizmet.</p>
+      <div class="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1591088851918-8d19a0ec2aa7?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl h-60 w-full object-cover" alt="Ağaoğlu Residence">
+          <span class="absolute bottom-3 left-3 bg-black/60 text-white px-3 py-1 rounded-lg text-sm">Ağaoğlu Residence</span>
+        </div>
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl h-60 w-full object-cover" alt="Ağaoğlu Sky Towers">
+          <span class="absolute bottom-3 left-3 bg-black/60 text-white px-3 py-1 rounded-lg text-sm">Ağaoğlu Sky Towers</span>
+        </div>
+        <div class="relative">
+          <img src="https://images.unsplash.com/photo-1529429617124-95b109e86bb8?auto=format&fit=crop&w=800&q=80" class="rounded-2xl shadow-xl h-60 w-full object-cover" alt="İstanbul Lüks Proje">
+          <span class="absolute bottom-3 left-3 bg-black/60 text-white px-3 py-1 rounded-lg text-sm">İstanbul Lüks Proje</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hakkımızda -->
+  <section id="hakkimizda" class="py-20 bg-gray-100">
+    <div class="mx-auto max-w-4xl px-4 text-center">
+      <h2 class="text-3xl font-extrabold">Hakkımızda</h2>
+      <p class="mt-4 text-lg text-gray-700">Murat Dekorasyon olarak İstanbul’da 35 yıldır boya, alçı, fayans, mutfak dolabı, asma tavan ve tüm iç mimari işlerinizde güvenilir hizmet sunuyoruz. Ağaoğlu gibi Türkiye’nin önde gelen inşaat projelerinde edindiğimiz deneyim ile evinizi ve iş yerinizi kusursuz hale getiriyoruz.</p>
+    </div>
+  </section>
+
+  <!-- Anlık Bilgi Alanı -->
+  <section id="bilgi" class="py-20">
+    <div class="mx-auto max-w-7xl px-4 grid lg:grid-cols-3 gap-8">
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="font-bold text-xl mb-4">📢 Ekonomi Haberleri</h3>
+        <iframe src="https://www.trthaber.com/ekonomi/" class="w-full h-64 rounded-xl"></iframe>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="font-bold text-xl mb-4">🕌 Namaz Vakitleri</h3>
+        <iframe src="https://namazvakitleri.diyanet.gov.tr/tr-TR/" class="w-full h-64 rounded-xl"></iframe>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow">
+        <h3 class="font-bold text-xl mb-4">📈 Anlık Borsa</h3>
+        <iframe src="https://www.bloomberght.com/borsa" class="w-full h-64 rounded-xl"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- İletişim -->
+  <section id="iletisim" class="py-20">
+    <div class="mx-auto max-w-7xl px-4 grid lg:grid-cols-2 gap-10 items-center">
+      <div>
+        <h2 class="text-3xl font-extrabold">İletişim</h2>
+        <p class="mt-4">📍 Barış Mahallesi, Barış Caddesi No:3</p>
+        <p>📞 <a href="tel:5438391728" class="text-[var(--brand)] font-bold">543 839 17 28</a></p>
+      </div>
+      <img src="https://images.unsplash.com/photo-1560184897-6b12f0f67b34?auto=format&fit=crop&w=900&q=80" class="rounded-2xl shadow-xl" alt="Ofis Görseli">
+    </div>
+  </section>
+
+  <footer class="gradient-bg text-white py-6 text-center">
+    © <span id="yil"></span> Murat Dekorasyon - Tüm Hakları Saklıdır.
+  </footer>
+
+  <a href="tel:5438391728" class="fixed right-4 bottom-4 gradient-bg text-white px-6 py-3 rounded-full shadow-lg">📞 Ara: 543 839 17 28</a>
+  <script>document.getElementById('yil').textContent = new Date().getFullYear();</script>
+</body>
+</html>
